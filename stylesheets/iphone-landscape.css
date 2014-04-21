@@ -39,9 +39,17 @@
 .menu-btn {
   width: 44px;
   height: 44px;
-  margin-top: 18px;
-  margin-left: 18px;
+  margin-top: 12px;
+  margin-left: 12px;
   position: absolute;
+}
+
+.toggle-3d {
+  background-image: url('../images/3D-small.png');
+  background-size: cover;
+  width: 120px;
+  height: 80px;
+  float: right;
 }
 
 .iphone-landscape nav {
