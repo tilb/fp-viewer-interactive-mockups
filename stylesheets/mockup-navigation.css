@@ -1,0 +1,22 @@
+.mockup-navigation {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  z-index: 100000;
+  background-color: white;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.mockup-navigation ul {
+  list-style: none;
+  padding: none;
+  margin: 0 auto;
+  width: 450px;
+  display: block;
+}
+
+.mockup-navigation li {
+  float: left;
+  padding: 12px 30px;
+}

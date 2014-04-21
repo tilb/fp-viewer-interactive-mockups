@@ -1,0 +1,29 @@
+.funda-wrapper {
+  width: 924px;
+  height: 600px;
+  border: 1px solid #ccc;
+}
+
+.view-2d {
+  background-image: url('../images/2D-big.png');
+  background-size: cover;
+}
+
+.view-3d {
+  background-image: url('../images/3D-big.png');
+  background-size: cover;
+}
+
+.menu-btn {
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+}
+
+.toggle-3d {
+  background-image: url('../images/3D-small.png');
+  background-size: cover;
+  width: 240px;
+  height: 160px;
+  float: right;
+}

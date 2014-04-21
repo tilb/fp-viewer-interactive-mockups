@@ -1,0 +1,97 @@
+.funda-wrapper {
+  width: 924px;
+  height: 600px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  position: relative;
+}
+
+.funda-wrapper a {
+  cursor: pointer;
+}
+
+.view-2d {
+  background-image: url('../images/2D-big.png');
+  background-size: cover;
+  width: 924px;
+  height: 600px;
+}
+
+.view-3d {
+  background-image: url('../images/3D-big.png');
+  background-size: cover;
+  width: 924px;
+  height: 600px;
+}
+
+.menu-btn {
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+  color: #666;
+}
+
+.toggle-3d {
+  background-image: url('../images/3D-small.png');
+  background-size: cover;
+  width: 240px;
+  height: 160px;
+  float: right;
+}
+
+.menu-btn, .toggle-3d {
+  opacity: 0.5;
+}
+
+.menu-btn:hover, .toggle-3d:hover {
+  opacity: 1;
+}
+
+.funda-wrapper nav {
+  background-color: #f6f9fb;
+}
+
+.floor-menu a {
+  color: #36c;
+}
+
+.floor-menu a:hover {
+  background-color: rgba(0,0,0,0.03);
+}
+
+.view-options {
+  position: absolute;
+  bottom: 0;
+  width: 160px;
+  background-color: #eee;
+}
+
+.view-options-header {
+  text-align: center;
+  height: 32px;
+  border-top: 1px solid #ccc;
+  line-height: 32px;
+}
+
+.view-options-menu {
+  border-top: 1px solid #ccc;
+}
+
+.view-options-buttons {
+  padding: 0 12px;
+}
+
+.view-options-buttons li {
+  float: left;
+  display: block;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+}
+
+.view-options-buttons li a {
+  border-bottom: 0;
+  color: #8d8d8d;
+  padding: 0;
+  line-height: 52px;
+}
