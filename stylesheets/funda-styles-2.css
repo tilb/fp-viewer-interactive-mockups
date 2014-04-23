@@ -73,11 +73,13 @@
 
 .funda-wrapper nav {
   background-color: #f6f9fb;
+  overflow: hidden;
 }
 
 .floor-menu a {
   color: #36c;
   position: relative;
+  width: 120px;
 }
 
 .floor-menu a:hover {
@@ -91,19 +93,24 @@
 .floor-menu a:hover > .thumb-text {
   display: block;
   position: absolute;
-  top: 60px;
+  top: 40px;
   text-align: center;
-  width: 120px;
+  width: 100px;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 8px 12px;
   color: white;
   border-radius: 4px;
+  margin-left: 10px;
+}
+
+.close-menu {
+  padding: 24px 12px !important;
 }
 
 .view-options {
   position: absolute;
   bottom: 0;
-  width: 160px;
+  width: 120px;
   background-color: #eee;
 }
 
@@ -119,14 +126,14 @@
 }
 
 .view-options-buttons {
-  padding: 0 12px;
+  padding: 0;
 }
 
 .view-options-buttons li {
   float: left;
   display: block;
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   text-align: center;
 }
 
@@ -134,5 +141,5 @@
   border-bottom: 0;
   color: #8d8d8d;
   padding: 0;
-  line-height: 52px;
+  line-height: 40px;
 }

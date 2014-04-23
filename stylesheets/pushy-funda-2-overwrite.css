@@ -1,6 +1,6 @@
 .pushy {
   position: absolute;
-  width: 160px;
+  width: 120px;
 }
 
 .pushy ul {
@@ -9,7 +9,7 @@
 }
 
 .pushy a {
-  padding: 14px 18px;
+  padding: 0;
 }
 
 .pushy a:hover {
