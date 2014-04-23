@@ -18,6 +18,11 @@
 }
 
 .view-3d {
+  display: none;
+}
+
+.view-3d:target {
+  display: block;
   background-image: url('../images/3D-big.png');
   background-size: cover;
   width: 924px;
@@ -39,12 +44,20 @@
   float: right;
 }
 
-.menu-btn, .toggle-3d {
+.toggle-2d {
+  background-image: url('../images/2D-small.png');
+  background-size: cover;
+  width: 240px;
+  height: 160px;
+  float: right;
+}
+
+.menu-btn, .toggle-3d, .toggle-2d {
   opacity: 0.5;
   transition: opacity 0.3s ease;
 }
 
-.menu-btn:hover, .toggle-3d:hover {
+.menu-btn:hover, .toggle-3d:hover, .toggle-2d:hover {
   opacity: 1;
 }
 

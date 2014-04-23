@@ -1,3 +1,9 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 .funda-wrapper {
   width: 924px;
   height: 600px;
@@ -34,9 +40,26 @@
 .toggle-3d {
   background-image: url('../images/3D-small.png');
   background-size: cover;
-  width: 240px;
-  height: 160px;
+  width: 180px;
+  height: 120px;
   float: right;
+  margin: 10px;
+  padding-top: 30px;
+}
+
+.toggle-text {
+  display: none;
+}
+
+.toggle-3d:hover > .toggle-text {
+  display: block;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px 12px;
+  color: white;
+  border-radius: 4px;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .menu-btn, .toggle-3d {
@@ -54,10 +77,27 @@
 
 .floor-menu a {
   color: #36c;
+  position: relative;
 }
 
 .floor-menu a:hover {
   background-color: rgba(0,0,0,0.03);
+}
+
+.thumb-text {
+  display: none;
+}
+
+.floor-menu a:hover > .thumb-text {
+  display: block;
+  position: absolute;
+  top: 60px;
+  text-align: center;
+  width: 120px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px 12px;
+  color: white;
+  border-radius: 4px;
 }
 
 .view-options {

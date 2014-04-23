@@ -61,6 +61,7 @@
 <script type="text/javascript" src="javascripts/jquery-1.10.1.min.js"></script>
 <script type="text/javascript" src="javascripts/modernizr.custom.71422.js"></script>
 <script type="text/javascript" src="javascripts/pushy.min.js"></script>
+<script type="text/javascript" src="javascripts/no-jump.js"></script>
 
 
 <script type="text/javascript" async="" src="./funda_files/ga.js"></script><script type="text/javascript">
@@ -442,11 +443,22 @@ function bewaarVolgEvent(bewaarOfVolg) {
   <div id="container">
       <!-- Menu Button -->
       <!-- <div class="menu-btn">&#9776; Menu</div> -->
-      <div class="view-2d">
+      <div id="view-2d" class="view-2d">
         <div class="menu-btn">
             <i class="fa fa-bars fa-3x"></i>
         </div>
-        <div class="toggle-3d">
+        <div class="preview-3d">
+            <a href="#view-3d" class="toggle-3d">
+            </a>
+        </div>
+      </div>
+      <div id="view-3d" class="view-3d">
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-3x"></i>
+        </div>
+        <div class="preview-2d">
+            <a href="#view-2d" class="toggle-2d">
+            </a>
         </div>
       </div>
   </div>
