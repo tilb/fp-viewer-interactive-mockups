@@ -39,21 +39,50 @@
   float: right;
 }
 
-.menu-btn, .toggle-3d {
+.menu-btn i, .toggle-3d {
   opacity: 0.5;
   transition: opacity 0.3s ease;
 }
 
-.menu-btn:hover, .toggle-3d:hover {
+.menu-btn i:hover, .toggle-3d:hover {
   opacity: 1;
 }
 
-.funda-wrapper nav {
-  background-color: #f6f9fb;
+.dropdown {
+  display: none;
+}
+
+.menu-btn:hover > .dropdown {
+  display: block;
+  width: 160px;
+  position: absolute;
+  height: 207px;
+  left: 12px;
+  top: 52px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.floor-menu {
+  margin-left: 0;
+}
+
+.floor-menu li {
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+
+.floor-menu li:last-child {
+  border-bottom: 0px;
 }
 
 .floor-menu a {
   color: #36c;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .floor-menu a:hover {
@@ -65,6 +94,8 @@
   bottom: 0;
   width: 160px;
   background-color: #eee;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 
 .view-options-header {
@@ -78,9 +109,9 @@
   border-top: 1px solid #ccc;
 }
 
-.view-options-buttons {
+/*.view-options-buttons {
   padding: 0 12px;
-}
+}*/
 
 .view-options-buttons li {
   float: left;

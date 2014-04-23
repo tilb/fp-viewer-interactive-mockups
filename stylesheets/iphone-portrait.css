@@ -1,0 +1,108 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.content {
+  padding-top: 60px;
+}
+
+.iphone-landscape {
+  height: 563px;
+  width: 268px;
+  background-image: url('../images/iphone-portrait.png');
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-top: 83px;
+  padding-left: 1px;
+  font-family: 'Helvetica';
+}
+
+.landscape-screen {
+  height: 398px;
+  width: 224px;
+  margin: 0 auto;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.view-2d {
+  background-image: url('../images/2D-big.png');
+  background-size: cover;
+  background-position: center center;
+  height: 398px;
+  width: 224px;
+}
+
+.menu-btn {
+  width: 44px;
+  height: 44px;
+  margin-top: 12px;
+  margin-left: 12px;
+  position: absolute;
+}
+
+.toggle-3d {
+  background-image: url('../images/3D-small.png');
+  background-size: cover;
+  width: 120px;
+  height: 80px;
+  float: right;
+}
+
+.iphone-landscape nav {
+  background-color: #d1d3d4;
+}
+
+.floor-menu {
+  margin: 0;
+  padding: 0;
+}
+
+.floor-menu li {
+  display: block;
+}
+
+.floor-menu a {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.floor-menu a:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.view-options {
+  position: absolute;
+}
+
+.view-options-header {
+  text-align: center;
+  height: 32px;
+  border-top: 1px solid #ccc;
+  line-height: 32px;
+}
+
+.view-options-menu {
+  border-top: 1px solid #ccc;
+}
+
+.view-options-buttons {
+  padding: 0 12px;
+}
+
+.view-options-buttons li {
+  float: left;
+  display: block;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+}
+
+.view-options-buttons li a {
+  border-bottom: 0;
+  color: #8d8d8d;
+  padding: 0;
+  line-height: 52px;
+}
