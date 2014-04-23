@@ -1,0 +1,122 @@
+
+.MEPB_arrow{
+    position:absolute;
+    height:25px;
+    width:9px;
+    background-image:url(/img2/popBox/arrow.png);
+    background-repeat:no-repeat;
+    background-position:top left;
+}
+
+.MEPB_close{
+    /*position:absolute;*/
+    position:relative;
+    line-height:30px;
+    float:right;
+    width:55px;
+    margin-right:20px;
+    z-index:160;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.MEPB_close a{
+    background-image:url(/img2/popBox/close.gif);
+    background-repeat:no-repeat;
+    padding-right:20px;
+    background-position:right;
+    padding:5px 28px 5px 0;
+    color:#666;
+}
+
+
+.MEPB_clear{
+    clear:both;
+}
+
+
+.MEPB_content{
+    
+}
+
+.MEPB_content .top{
+    height:2px;
+}
+.MEPB_content .bottom{
+    height:12px;
+}
+.MEPB_content .left{
+    width:9px;
+}
+.MEPB_content .center{
+    
+}
+.MEPB_content .right{
+    width:2px;
+}
+
+
+.MEPB_content .top.left{
+    background-image:url(/img2/popBox/top_left.png);
+    background-position:top left;
+    background-repeat:no-repeat;
+}
+.MEPB_content .top.center{
+    background-repeat:repeat-x;
+    background-image:url(/img2/popBox/top_center.png);
+    background-position:top center;
+}
+.MEPB_content .top.right{
+    background-repeat:no-repeat;
+    background-image:url(/img2/popBox/top_right.png);
+    background-position:top right;
+}
+
+.MEPB_content .center_content{
+    background-color:#FFF;
+}
+.MEPB_content .center.right{
+    background-image:url(/img2/popBox/center_right.png);
+    background-position:center right;
+    background-repeat:repeat-y;
+}
+.MEPB_content .center.left{
+    background-image:url(/img2/popBox/center_left.png);
+    background-position:center left;
+    background-repeat:repeat-y;
+    height:10px;
+}
+
+.MEPB_content .bottom.left{
+    background-image:url(/img2/popBox/bottom_left.png);
+    background-position:bottom left;
+    background-repeat:no-repeat;
+    height:10px;
+}
+.MEPB_content .bottom.center{
+    background-image:url(/img2/popBox/bottom_center.png);
+    background-position:bottom center;
+    background-repeat:repeat-x;
+}
+.MEPB_content .bottom.right{
+    background-image:url(/img2/popBox/bottom_right.png);
+    background-position:bottom right;
+    background-repeat:no-repeat;
+}
+
+.MEPB_content  .center_content_cont{
+    background-color: #FFFFFF;
+}
+
+/**** popup informazioni orario agenzia *****/
+#MEPB_DIV_suggPopBoxOrarioAg .MEPB_close{
+    position: absolute;
+    line-height: 30px;
+    float: right;
+    width: 55px;
+    margin-right: 0;
+    z-index: 160;
+    cursor: pointer;
+    font-weight: bold;
+    left: 250px;
+}

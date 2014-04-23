@@ -1,0 +1,32 @@
+/* Stili tooltip*/
+.MEtoolTipDiv {
+	padding:3px;
+	border:1px solid #E6B0B0;
+	background:#FFFFBF;
+	text-align:left;
+}
+.MEtoolTipDiv .msg{
+    font-size:12px;
+}
+.MEtoolTipDiv .title{
+	font-weight:bold;
+	font-size:13px;
+        margin-bottom:2px;
+        margin-right:3px;
+}
+.MEtoolTipDiv .closeTooltip{
+    margin-bottom:2px;
+    font-size:11px;
+}
+.MEtoolTipDiv .sugg{
+	margin-top:5px;
+	font-style:italic;
+	font-size:12px;
+}
+.MEtoolTipDiv ul{
+	margin:0px;		
+}
+
+.MEtoolTipDiv ul li{
+
+}

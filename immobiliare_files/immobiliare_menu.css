@@ -1,0 +1,496 @@
+/* MENU GENERALE STILE MENU HEADER IMMOBILIARE*/
+
+#menu_azzurro_left{
+	float:left !important;
+}
+#menu_azzurro_left .btn{
+	margin-left:0px;
+	margin-right:10px;
+}
+
+.menu_azzurro a:link, .menu_azzurro a:hover, .menu_azzurro a:visited{
+	text-decoration:none !important;
+}
+
+.tab_menu {
+	padding: 0 0 0 0px;
+}
+
+.tab_menu .tab_btn{
+	background-position: 0 -6px;
+	height:38px;
+	padding:0px;	
+	line-height:36px;
+	color:#FFF !important;
+}
+.tab_menu .tab_btn a{
+	color:#FFF !important;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tab_menu .tab_btn img{
+	color:#FFF;
+}
+.tab_menu .act .tab_btn a{
+	color:#000 !important;
+	text-shadow: none;
+}
+
+.tab_menu ul{
+	margin:0px;padding:0px;
+}
+div.tab_menu span,div.tab_menu a.btn{
+	color:#000;
+	display:inline;
+	width:auto;
+	float:left; 
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	cursor:pointer;	
+}
+div.tab_menu span.btn{
+	background: transparent;
+}
+
+.tab_menu span img{
+	float:left;
+	position:relative;
+	top:11px;
+	line-height:13px;
+	color:#000;
+	z-index:100;
+	/*margin-right:5px;*/
+}
+.tab_menu span img.icon{
+	position:relative;
+	top:0px;
+}
+.tab_menu .left,.tab_menu .right, .tab_menu .first_left, .tab_menu .last_right{
+	width:10px;
+	height:38px;
+	background-position: 0 -6px;
+}
+
+.tab_menu span {
+    background-repeat: repeat-x;
+}
+.tab_menu .act .tab_btn {
+    background-position: 0 -45px;
+    color: #000000 !important;
+    position: relative;
+    z-index: 99;
+}
+
+.tab_menu .act .left {
+    background-position: 0 -240px;
+}
+.tab_menu .act .right {
+    background-position: 0 -279px;
+}
+.tab_menu .first_left{
+   background-position: 0 -84px;
+}
+.tab_menu .act .first_left {
+    background-position: 0 -162px;
+}
+.tab_menu .last_right {
+    background-position: 0 -123px;
+}
+.tab_menu .act .last_right{
+	background-position: 0 -201px;
+}
+.tab_menu .separator{
+	height:38px;
+	width:1px;
+	background-position: 0 -831px;
+	float:left;
+	display:inline;
+}
+
+.btn.act .m_btn.servizi{
+	background-position:center;
+}
+div.tab_menu .m_btn{
+	background-image: url(/img2/header_images/menu/voci/spriteVociMenu.png);
+	background-position: center bottom;
+	position:relative;
+	top:12px;
+	height:35px;
+	background-repeat:no-repeat;
+}
+.btn.act .m_btn {
+    background-position: center top;
+}
+.btn.over .m_btn {
+    background-position: center center;
+}
+#annunci_residenziali_btn .m_btn {
+    background-position: -18px -70px;
+    width: 88px;
+}
+.btn.act.over #annunci_residenziali_btn .m_btn {
+    background-position: -18px -35px;
+}
+.btn.act #annunci_residenziali_btn .m_btn {
+    background-position: -18px 0;
+}
+#annunci_commerciali_btn .m_btn {
+    background-position: -18px -176px;
+    width: 88px;
+}
+.btn.act.over #annunci_commerciali_btn .m_btn {
+    background-position: -18px -141px;
+}
+.btn.act #annunci_commerciali_btn .m_btn {
+    background-position: -18px -106px;
+}
+
+#nuove_costruzioni_btn .m_btn {
+    background-position: 0 -281px;
+    width: 125px;
+}
+.btn.act.over #nuove_costruzioni_btn .m_btn {
+    background-position: 0px -246px;
+}
+.btn.act #nuove_costruzioni_btn .m_btn {
+    background-position: 0px -211px;
+}
+
+#annunci_stanze_btn .m_btn {
+    background-position: -36px -387px;
+    width: 52px;
+}
+.btn.act.over #annunci_stanze_btn .m_btn {
+    background-position: -36px -352px;
+}
+.btn.act #annunci_stanze_btn .m_btn {
+    background-position: -36px -317px;
+}
+#ricerca_terreni_btn .m_btn {
+    background-position: -37px -493px;
+    width: 52px;
+}
+.btn.act.over #ricerca_terreni_btn .m_btn {
+    background-position: -37px -458px;
+}
+.btn.act #ricerca_terreni_btn .m_btn {
+    background-position: -37px -423px;
+}
+#annunci_turistici_btn .m_btn {
+    background-position: -30px -598px;
+    width: 63px;
+}
+.btn.act.over #annunci_turistici_btn .m_btn {
+    background-position: -30px -563px;
+}
+.btn.act #annunci_turistici_btn .m_btn {
+    background-position: -30px -528px;
+}
+#estero_btn .m_btn {
+    background-position: -37px -704px;
+    width: 51px;
+}
+.btn.act.over #estero_btn .m_btn {
+    background-position: -37px -668px;
+}
+.btn.act #estero_btn .m_btn {
+	background-position: -37px -634px;
+}
+#accesso-professionisti_btn .m_btn{
+	width:160px;
+	background-position:0 -300px;
+}
+
+#ricerca_annunci_btn .m_btn{
+	width:100px;
+	background-image: url(/img2/header_images/menu/voci/cercaannunci.png);
+}
+
+#ricerca_agenzie_btn .m_btn {
+    background-image: url("/img2/header_images/menu/voci/agenzie.png");
+    width: 54px;
+}
+.btn.act.over #ricerca_agenzie_btn .m_btn {
+    background-position:  center center;
+}
+.btn.act.#ricerca_agenzie_btn .m_btn {
+    background-position:  center top;
+}
+
+/* DEFINIZIONE MENU BOTTONE AZZURRO SENZA CAMBIO BOTTONE SELEZIONATO*/
+
+.tab_menu .menu_azzurro .tab_btn{
+	padding:0px;
+	color:#000;
+}
+.tab_menu .menu_azzurro .tab_btn,.tab_menu .menu_azzurro .tab_btn a{
+	color:#000 !important;
+	text-shadow: none;
+	
+}
+.tab_menu .menu_azzurro .btn{
+	margin-left:5px;
+}
+.menu_azzurro span{
+	background-image:none;
+}
+
+
+
+.tab_menu .menu_azzurro .tab_btn {
+    background-position: 0 -426px;
+}
+.tab_menu .menu_azzurro .act .tab_btn,.tab_menu .menu_azzurro .over .tab_btn {
+    background-position: 0 -45px;
+}
+.tab_menu .menu_azzurro .left {
+    background-position: 0 -465px;
+}
+.tab_menu .menu_azzurro .act .left {
+    background-position: 0 -162px;
+}
+.tab_menu .menu_azzurro .act .last_right {
+    background-position: 0 -201px;
+}
+.tab_menu .menu_azzurro .act .last_right {
+    background-position: 0 -201px;
+}
+.tab_menu .menu_azzurro .first_left {
+    background-position: 0 -465px;
+}
+.tab_menu .menu_azzurro .last_right {
+    background-position: 0 -504px;
+}
+
+.tab_menu .menu_azzurro .separator{
+	height:38px;
+	width:1px;
+	background-image: url(/img2/header_images/menu/menublu-separatore.gif);
+	float:left;
+	display:inline;
+}
+
+/* DEFINIZIONE MENU BOTTONE AZZURRO CON CAMBIO BOTTONE SELEZIONATO */
+
+.tab_menu .menu_azzurro_2{
+	height:35px;
+	overflow:hidden;
+}
+.tab_menu .menu_azzurro_tipologie_nc {
+    height: 27px;
+    overflow: hidden;
+}
+
+.tab_menu .menu_azzurro_tipologie_nc .act .tab_btn {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 1px solid #79AFC7;
+    padding: 0;
+}
+
+.tab_menu .menu_azzurro_2 .tab_btn{
+	color:#000 !important;
+	
+}
+
+.tab_menu .menu_azzurro_2 .tab_btn a{
+	color:#000 !important;
+}
+
+.tab_menu .menu_azzurro_2 .separator {
+    background-position: 0 -870px;
+}
+
+.tab_menu .menu_azzurro_2,.tab_menu .menu_azzurro_2 .tab_btn,.tab_menu .menu_azzurro_2 .right, .tab_menu .menu_azzurro_2 .left,.menu_azzurro_tipologie_nc .tab_btn{
+    background-position: 0 -390px;
+	margin-left: 0px;
+    text-align: center;
+}
+
+.tab_menu .menu_azzurro_2 .tab_btn {
+	font-size:12px;
+	line-height:38px;
+	height:35px;
+	
+}
+/* menu ordinamento alfabetico elenco servizi in guide_locali*/
+.tab_menu .menu_azzurro_2 .tab_btn.squared {
+	width:18px !important;
+}
+.tab_btn.squared.disabled{
+	cursor:default !important;
+	color:#888888 !important;
+}
+/*   */
+.tab_menu .menu_azzurro_2 .act .tab_btn {
+    background-position: 0 -906px;
+}
+
+.tab_menu .menu_azzurro_2 .act .left {
+    background-position: 0 -615px;
+}
+.tab_menu .menu_azzurro_2 .act .right {
+    background-position: 0 -651px;
+}
+
+.tab_menu .menu_azzurro_2 .first_left,.menu_azzurro_tipologie_nc .left,.menu_azzurro_tipologie_nc .first_left  {
+    background-color: #FFFFFF;
+    background-position: 0 -1050px;
+}
+.tab_menu .menu_azzurro_2 .act .first_left{
+	background-position: 0 -543px;
+}
+.menu_azzurro_tipologie_nc .right,.tab_menu .menu_azzurro_2 .last_right {
+    background-color: #FFFFFF;
+    background-position: 0 -1086px;
+}
+.tab_menu .menu_azzurro_2 .act .last_right {
+    background-position: 0 -579px;
+}
+
+
+/* definizione menu tabella tipologie in nuove costruzioni*/
+/*.menu_azzurro_tipologie_nc{
+	text-align:center;
+}*/
+
+.menu_azzurro_tipologie_nc a {
+    display: inline-block;
+	*display:inline;
+	*zoom:1;
+    padding: 0 1px;
+}
+.tab_menu .menu_azzurro_tipologie_nc span{
+	font-size:13px;
+	line-height:25px;
+}
+
+.menu_azzurro_tipologie_nc span img{
+	top:-2px;
+	margin-right:5px
+}
+.menu_azzurro_tipologie_nc .tab_btn {
+    color: #045A97 !important;
+    line-height: 25px !important;
+}
+.menu_azzurro_tipologie_nc .first_left, .menu_azzurro_tipologie_nc .left, .menu_azzurro_tipologie_nc .right, .menu_azzurro_tipologie_nc .last_right, .menu_azzurro_tipologie_nc .last_left {
+    background-repeat: no-repeat;
+    width: 10px;
+}
+
+.menu_azzurro_tipologie_nc .act .right {
+    background-image: url("/img2/tab_images/dettaglio_nc/label-nuovecostruzioni-selezionato-dx.gif");
+    background-position: 0 0;
+}
+.menu_azzurro_tipologie_nc .act .last_right{
+	background-image: url(/img2/tab_images/dettaglio_nc/label-nuovecostruzioni-selezionato-dx.gif);
+}
+.menu_azzurro_tipologie_nc .act .left,.menu_azzurro_tipologie_nc .act .first_left {
+    background-image: url("/img2/tab_images/dettaglio_nc/label-nuovecostruzioni-selezionato-sx-first.gif");
+    background-position: 0 0;
+}
+
+#border_dx_tab_dettaglio_nc{
+	border-top:1px solid #79afc7;
+	float:right;
+	width:119px;
+	margin-top:-1px;
+}
+
+
+
+/* definizione menu tabella media_nc in nuove costruzioni*/
+.menu_grigio_tipologie_nc{
+	text-align:center;
+}
+
+.menu_grigio_tipologie_nc span{
+	font-size:13px;
+	line-height:25px;
+}
+
+.menu_grigio_tipologie_nc span img{
+	margin-top:4px;
+	position:static;
+	margin-right:5px
+}
+
+.menu_grigio_tipologie_nc .tab_btn{
+	background-image: url("/img2/tab_images/dettaglio_nc/tabbox-dettaglio-fondo.gif");
+	background-position: 0 0 !important;
+	color:#000;
+	padding:0px;
+	color:#000 !important;
+	line-height:27px !important;
+	height:27px;
+}
+.menu_grigio_tipologie_nc .act .tab_btn{
+	background-image: url("/img2/tab_images/dettaglio_nc/tabbox-dettaglio-fondo-selezionato.gif");
+}
+.menu_grigio_tipologie_nc .left,.menu_grigio_tipologie_nc .act .left,.menu_grigio_tipologie_nc .right,.menu_grigio_tipologie_nc .act .right{
+	background-position: 0 0 !important;
+	width:10px;
+	height:27px !important;
+}
+.menu_grigio_tipologie_nc .left{
+	background-image: url("/img2/tab_images/dettaglio_nc/tabbox-dettaglio-sx.gif");
+}
+.menu_grigio_tipologie_nc .act .left {
+    background-image: url("/img2/tab_images/dettaglio_nc/tabbox-dettaglio-sx-selezionato.gif");
+}
+.menu_grigio_tipologie_nc .right{
+	background-image: url("/img2/tab_images/dettaglio_nc/tabbox-dettaglio-dx.gif");
+	margin-right:2px;
+}
+.menu_grigio_tipologie_nc .act .right{
+	background-image: url("/img2/tab_images/dettaglio_nc/tabbox-dettaglio-dx-selezionato.gif");
+}
+
+
+
+#border_dx_tab_dettaglio_nc{
+	border-top:1px solid #79afc7;
+	float:right;
+	width:119px;
+	margin-top:-1px;
+}
+
+.menu_azzurro.small_buttons .tab_btn,.menu_azzurro.small_buttons .tab_btn a{
+	text-align:center;
+	line-height:11px;
+	font-size:11px;
+	width:50px;
+	
+}
+.menu_azzurro.small_buttons .tab_btn a{
+	position:relative;
+	top:7px;
+} 
+
+/*menu pagine mutui*/
+#mutui_btn .m_btn{
+	width:50px;
+	background-image: url(/img2/header_images/menu/voci/mutui/mutui.png);
+}
+#prestiti_btn .m_btn{
+	width:50px;
+	background-image: url(/img2/header_images/menu/voci/mutui/prestiti.png);
+}
+#assicurazione_btn .m_btn{
+	width:138px;
+	background-image: url(/img2/header_images/menu/voci/mutui/assicurazione.png);
+}
+#traslochi_btn .m_btn{
+	width:70px;
+	background-image: url(/img2/header_images/menu/voci/mutui/traslochi.png);
+}
+#bricolage_btn .m_btn{
+	width:70px;
+	background-image: url(/img2/header_images/menu/voci/mutui/bricolage.png);
+}
+
+#internet_btn .m_btn{
+	width:130px;
+	background-image: url(/img2/header_images/menu/voci/mutui/internet-e-telefono.png);
+}
+

@@ -1,0 +1,154 @@
+
+  /* Global form styles */
+  #MT_banner_form {
+      margin:15px auto 0px;
+      width:670px;
+      font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+      font-size:11px;
+      background-color:#fff;
+  }
+  
+  #MT_header_form {
+      background:transparent url("/img2/loghi_mutui_it/logo_new.png") no-repeat top left;
+      height:80px;
+      text-align:center;
+      border-bottom:2px solid #3474A9;
+  }
+
+  .MT_form_field {
+      height:29px;
+      line-height:29px;
+      width:100%;
+  }
+  .MT_form_field input,.MT_form_field select {
+      padding:2px;
+      border:1px solid #969696;
+  }
+  .MT_form_field select { 
+      border:1px solid #969696;
+  }
+  .MT_form_field  label{
+      display:block;
+      float:left;
+      font-weight:bold;
+      color:#616161;
+      text-align:right;
+      padding-right:20px;
+  }
+  /*LISTS STYLES*/
+
+  #MT_form_home {
+      padding-top:45px;
+      background:#fff url("/img2/loghi_mutui_it/mutui_form_top.png") no-repeat top center;
+      width:430px;
+      float:right;
+  }
+  
+  .mutui_dettaglio_nc{
+    margin:0px !important;
+    background:none !important;
+  }
+  
+  .mutui_dettaglio_nc.form_dati{
+    padding:0px !important;
+  }
+   .mutui_dettaglio_nc.form_home{
+    width:393px !important;
+    
+  }
+  
+  
+  #MT_form_home form#MT_form_dati {
+      background:transparent url("/img2/loghi_mutui_it/mutui_form_bg-y.png") repeat-y top center;
+      padding-left: 40px;
+  }
+  #MT_form_bottom {
+      height:30px;
+      background:transparent url("/img2/loghi_mutui_it/mutui_form_bottom.png") no-repeat bottom center;
+      margin-bottom:20px;
+  }
+  #MT_form_home #MT_form_1,#MT_form_home #MT_form_2 {
+  }
+  
+  #MT_form_home .MT_form_field label{
+      width:140px;
+      font-size:11px;
+  }
+  #MT_form_home .MT_form_field input {
+      margin-top:3px;
+      width:202px;
+  }
+  #MT_form_home .MT_form_field select {
+      width:208px;margin-top:3px;
+  }
+  #MT_button_form {
+      display:block;
+      height:65px;
+      width:260px;
+
+  }
+  #MT_form_home input.MT_button_form:hover {
+      cursor:pointer;
+      background-position:0 -75px;
+  }
+  #MT_form_home input.MT_button_form {
+      background:transparent url("/img2/loghi_mutui_it/mutui_button_home_blue_bakwhite.png") no-repeat 0 0;
+      border:none;
+      height:68px;
+      margin-left:60px;
+      text-align:center;
+      width:260px;
+      margin-top:10px;
+      margin-bottom:0px;
+  }
+  #MT_header_form {
+      
+  }
+  #MT_claim_form {
+      height:26px;
+      background:transparent url("/img2/loghi_mutui_it/barra.png") no-repeat top center;
+  }
+  #MT_claim_form p{
+      color:#fff;
+      font-weight:bold;
+      padding:0px 5px;
+      text-align:center;
+      font-size:17px;
+  }
+  #MT_bullets_form {
+      height:120px;width:470px;
+      background:#fff url("/img2/loghi_mutui_it/bullets_mutui_small.png") no-repeat center top;
+  }
+  #MT_side_form {
+      width:235px;
+      height:420px;
+      float:left;
+      background:#fff url("/img2/loghi_mutui_it/sidebar.png") no-repeat center top;
+  }
+  #MT_partner {
+      width:220px;
+      height:70px;
+      float:right;
+      background:#fff url("/img2/loghi_mutui_it/partner.png") no-repeat center bottom;
+  }
+  
+  .MT_side_form_wrap{
+      float:left;
+  }
+
+  #MT_form_home.MT_dettaglio{
+      background:none;
+      padding:0px;
+  }
+
+  #MT_form_home form#MT_form_dati.MT_dettaglio{
+      background:none;
+  }
+
+  #MT_form_home input.MT_button_form.MT_dettaglio{
+      background:transparent url("/img2/loghi_mutui_it/mutui_button_home_blue_bakwhite.png") no-repeat 0 0;
+  }
+
+  #MT_form_home input.MT_button_form:hover.MT_dettaglio{
+      background-position:0 -75px;      
+  }

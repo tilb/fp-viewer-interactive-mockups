@@ -1,0 +1,1 @@
+crtg_content = ''; (function(){document.cookie = 'cto_immo_rta=' + escape(crtg_content) + '; path=/; expires=Fri, 23 May 2014 16:04:57 GMT; domain=immobiliare.it';})();
